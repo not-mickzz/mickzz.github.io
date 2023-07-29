@@ -39,8 +39,6 @@ body {
   
   .icon-3d {
     padding: 10px;
-    -webkit-animation: icon3d 200ms 10;
-    animation: icon3d 200ms 10;
     color: rgb(255, 255, 255);
     text-shadow: 0 0 10px #fff, 0 0 25px #fff, 0 0 70px #0ff, 0 0 70px #0ff;
   }
@@ -57,7 +55,7 @@ body {
         text-shadow: 0 0 10px #fff, 0 0 25px #fff, 0 0 70px #0ff, 0 0 70px #0ff;
     }
     50% {
-      text-shadow: 5px -4px rgb(0, 255, 255), -8px 4px rgb(255, 255, 255);
+        text-shadow: -8px -4px rgb(0, 255, 255), -5px -4px rgb(255, 255, 255);
     }
     75% {
       text-shadow: -8px -4px rgb(0, 255, 255), -5px -4px rgb(255, 255, 255);
